@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="shortcut icon" href="./src/img/logo.svg" type="image/x-icon">
+    <title>X-Men</title>
+</head>
+<body>
+    <header>
+        <img src="./src/img/logo.svg" alt="Logo X-Men" id="logo">
+    </header>
+    <main id="main">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um Personagem</h1>
+            <hr>
+            <ul>
+                <li class="ciclope" onclick=" botaoc(), removec()">
+                    <img src="./src/img/card-ciclope.jpg" alt="Card Ciclope" class="img-pers">
+                </li>
+                <li class="jean" onclick=" botaoj(), removej()">
+                    <img src="./src/img/card-jean-grey.jpg" alt="Card Jean Grey" class="img-pers">
+                </li>
+                <li class="lince" onclick=" botaol(), removel()">
+                    <img src="./src/img/card-lince-negra.jpg" alt="Card Lince Negra" class="img-pers">
+                </li>
+                <li class="tempestade" onclick=" botaot(),removet()">
+                    <img src="./src/img/card-tempestade.jpg" alt="Card Tempestade" class="img-pers">
+                </li>
+                <li class="vampira" onclick=" botaov(), removev()">
+                    <img src="./src/img/card-vampira.jpg" alt="Card Vampira" class="img-pers">
+                </li>
+                <li class="wolverine" onclick=" botaow(), removew()">
+                    <img src="./src/img/card-wolverine.jpg" alt="Card Wolverine" class="img-pers">
+                </li>
+                <li class="noturno" onclick=" botaon(), removen()">
+                    <img src="./src/img/card-noturno.jpg" alt="Card Noturno" class="img-pers">
+                </li>
+                <li class="magneto" onclick=" botaom(), removem()">
+                    <img src="./src/img/card-magneto.jpg" alt="Card Magneto" class="img-pers">
+                </li>
+            </ul>
+        </section>
+        <section class="person">
+            <div id="iciclope">
+                <img src="./src/img/card-ciclope.png" alt="Apresentação Ciclope">
+                <h2 class="titulo-personagem">Ciclope</h2>
+                <hr><p class="informacoes">Ele tem o poder de disparar rajadas ópticas por um acidente que
+                    aconteceu com ele quando criança, mas não consegue controlá-los.</p>
+            </div>
+            <div id="ijean">
+                <img src="./src/img/card-jean-grey.png" alt="Apresentação Jean Grey">
+                <h2 class="titulo-personagem">Jean Grey</h2>
+                <hr><p class="informacoes">Jean Grey é uma mutante nível Ômega e o principal avatar da Força Fênix, no qual manifesta poderes cósmicos, A telepatia e telecinese.</p>
+            </div>
+            <div id="ilince">
+                <img src="./src/img/card-lince-negra.png" alt="Apresentação Lince Negra">
+                <h2 class="titulo-personagem">Lince Negra</h2>
+                <hr><p class="informacoes">Ela tem o poder de atravessar matéria sólida, campos de energia, rajfas ópticas, continuando intacta, e também tem o poder de andar no ar.</p>
+            </div>
+            <div id="itempestade">
+                <img src="./src/img/card-tempestade.png" alt="Apresentação Tempestade">
+                <h2 class="titulo-personagem">Tempestade</h2>
+                <hr><p class="informacoes">Tem o poder de controlar as forças da natureza, muito poderosa ela pode produzir raios, chuvas, gelos, ventos, neblina, entre outros efeitos.</p>
+            </div>
+            <div id="ivampira">
+                <img src="./src/img/card-vampira.png" alt="Apresentação Vampira">
+                <h2 class="titulo-personagem">Vampira</h2>
+                <hr><p class="informacoes">Ela tem o poder de absorver a vitalidade e memória das pessoas que toca ou no caso dos mutantes os poderes e a memória, mas só temporariamente.</p>
+            </div>
+            <div id="iwolverine">
+                <img src="./src/img/card-wolverine.png" alt="Apresentação Wolverine">
+                <h2 class="titulo-personagem">Wolverine</h2>
+                <hr><p class="informacoes">Poderes. Garras Metálicas, Fator de Cura Regenerativo e Super Agilidade.</p>
+            </div>
+            <div id="inoturno">
+                <img src="./src/img/card-noturno.png" alt="Apresentação Noturno">
+                <h2 class="titulo-personagem">Noturno</h2>
+                <hr><p class="informacoes">Ele é um mutante que nasceu com cauda, orelhas pontudas e com o poder de se Teletransportar.</p>
+            </div>
+            <div id="imagneto">
+                <img src="./src/img/card-magneto.png" alt="Apresentação Magneto">
+                <h2 class="titulo-personagem">Magneto</h2>
+                <hr><p class="informacoes">Ele tem o poder de magnetocinese, ou seja, controlar objetos de metal e criar campos magnéticos.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
