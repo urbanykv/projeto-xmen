@@ -323,10 +323,10 @@ function removen(){
 function botaom(){
     if(imagneto.style.display == 'none'){
         imagneto.style.display = 'flex';
-        main.style.gap = '60px'
+        main.style.gap = '60px';
     }else{
         imagneto.style.display = 'none';
-        main.style.gap = '0px'}
+        main.style.gap = '0px';}
 }
 
 function removem(){
